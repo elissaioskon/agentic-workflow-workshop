@@ -14,10 +14,12 @@ const speaker: Speaker = {
 };
 
 describe("SpeakerCard", () => {
-  it("shows the speaker's name", () => {
+  it("titles the card with the speaker's name as a level 2 heading", () => {
     render(<SpeakerCard speaker={speaker} />);
 
-    expect(screen.getByText("Ana Torres")).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { level: 2, name: "Ana Torres" }),
+    ).toBeInTheDocument();
   });
 
   it("shows the title and start time of each session", () => {

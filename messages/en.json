@@ -15,6 +15,7 @@
   },
   "SpeakersPage": {
     "title": "Speakers",
-    "intro": "Who is on stage, and the sessions they give."
+    "intro": "Who is on stage, and the sessions they give.",
+    "empty": "No speakers to show yet. Check back soon."
   }
 }

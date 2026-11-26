@@ -15,6 +15,7 @@
   },
   "SpeakersPage": {
     "title": "Ponentes",
-    "intro": "Quién está en el escenario y las sesiones que presenta."
+    "intro": "Quién está en el escenario y las sesiones que presenta.",
+    "empty": "Todavía no hay ponentes. Vuelve pronto."
   }
 }
