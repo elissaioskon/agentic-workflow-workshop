@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.4.0] — 2026-11-26
+
+### Features
+
+- Add a Speakers page: sessions grouped by speaker, with a speaker card and a nav link (#5)
+
+## Test Suite
+
+| Suite          | Status     |
+| -------------- | ---------- |
+| ESLint         | ⏳ pending |
+| Type-check     | ⏳ pending |
+| Unit tests     | ⏳ pending |
+| Build (Vercel) | ⏳ pending |
+
+CI: pending (no run on `release-0-4-0` yet)
+
 ## [0.3.2] — 2026-11-26
 
 ### Maintenance
